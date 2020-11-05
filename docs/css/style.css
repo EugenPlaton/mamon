@@ -12,6 +12,11 @@ body {
 .btn {
     background-color: #5528FF;
     color: #fff;
+    transition: background-color .2s linear;
+}
+
+.btn:hover {
+    background-color: #baa7ff;
 }
 
 /* header */
@@ -68,6 +73,11 @@ body {
     font-size: 14px;
     font-weight: 700;
     color: #202020;
+    transition: color .2s linear;
+}
+
+.header__nav li a:hover {
+    color: #acacac;
 }
 
 .header__btn {
@@ -236,6 +246,11 @@ body {
 .social li a {
     color: #B2B2B2;
     font-size: 24px;
+    transition: color .2s linear;
+}
+
+.social li a:hover {
+    color: #7c7c7c;
 }
 
 .social__item {
